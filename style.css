@@ -187,7 +187,7 @@ iframe {
 /* ========= BUTTON =========*/
 
 .mu-primary-btn {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	color: #fff;
 	display: inline-block;
 	font-size: 18px;
@@ -251,7 +251,7 @@ iframe {
 }
 
 .mu-single-slide:before {
-	background-color:#8481b0;
+	background-color:#1341beb9;
 	filter:progid:DXImageTransform.Microsoft.gradient(GradientType=1,startColorstr=#8481b0, endColorstr=#73b58c);
 	background-image:-moz-linear-gradient(left, #8481b0 55%, #73b58c 22%,#69bbd5 100%);
 	background-image:linear-gradient(left, #8481b0 55%, #73b58c 22%,#69bbd5 100%);
@@ -316,7 +316,7 @@ a:focus,
 /*--------------------*/
 
 #mu-hero {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	display: inline;
 	float: left;
 	width: 100%;
@@ -893,7 +893,7 @@ a:focus,
 }
 
 .mu-filter-item-content {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	position: absolute;
 	left: 16px;
 	top: 16px;
@@ -1465,14 +1465,14 @@ a:focus,
 
 
 #mu-footer {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	display: inline;
 	float: left;
 	width: 100%;
 }
 
 .mu-footer-top {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	display: inline;
 	float: left;
 	padding: 55px 0;
@@ -1541,7 +1541,7 @@ a:focus,
 }
 
 .mu-footer-bottom {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	display: inline;
 	padding: 20px 0;
 	float: left;
@@ -1559,12 +1559,12 @@ a:focus,
 	display: inline;
 	float: left;
 	width: 100%;
-	border-top: 1px solid #4438b1b9;
+	border-top: 1px solid #1341beb9;
 	padding-top: 12px;
 }
 
 .mu-social-media a {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	border: 1px solid #babcbe;
 	border-radius: 50%;
 	color: #fff;
@@ -2080,7 +2080,7 @@ a:focus,
 
 .mu-sidebar-widget-title {
 	background-color: #f6f6f6;
-	border-top: 2px solid #4438b1b9;
+	border-top: 2px solid #1341beb9;
 	color: #323232;
 	font-size: 24px;
 	padding: 16px 20px;
@@ -2266,7 +2266,7 @@ a:focus,
 
 .mu-blog-tag-nav li a:hover,
 .mu-blog-tag-nav li a:focus {
-	color: #4438b1b9;
+	color: #1341beb9;
 }
 
 .mu-blog-share {
@@ -2419,7 +2419,7 @@ a:focus,
 }
 
 .mu-comments-area .comments .commentlist li .reply-btn {
-	color: #323232;
+	color: #1341beb9;
 	display: inline-block;
 	font-size: 14px;
 	line-height: 13px;
@@ -2434,7 +2434,7 @@ a:focus,
 }
 
 .mu-comments-area .comments .commentlist li .reply-btn i {
-	color: #4438b1b9;
+	color: #1341beb9;
 	margin-right: 10px;
 }
 
@@ -2445,7 +2445,7 @@ a:focus,
 
 .mu-comments-area .comments .commentlist li .reply-btn:hover, 
 .mu-comments-area .comments .commentlist li .reply-btn:focus {
-	color: #4438b1b9;
+	color: #1341beb9;
 	text-decoration: none;
 	outline: none;
 }
@@ -2455,7 +2455,7 @@ a:focus,
 }
 
 .mu-comments-area .comments .commentlist li .author-tag {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	color: #fff;
 	display: inline-block;
 	font-size: 12px;
@@ -2491,7 +2491,7 @@ a:focus,
 .mu-comments-area .comments .comments-pagination li:last-child a:hover,
 .mu-comments-area .comments .comments-pagination li:first-child a:hover,
 .mu-comments-area .comments .comments-pagination li:last-child a:focus {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	color: #fff;
 }
 
@@ -2515,7 +2515,7 @@ a:focus,
 
 .mu-comments-area .comments .comments-pagination li a:hover, 
 .mu-comments-area .comments .comments-pagination li a:focus {
-	color: #4438b1b9;
+	color: #1341beb9;
 	background-color: transparent;
 	text-decoration: none;
 	outline: none;
@@ -2797,7 +2797,7 @@ a:focus,
 }
 
 .mu-overlay {
-	background-color: #4438b1b9;
+	background-color: #1341beb9;
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -2820,7 +2820,7 @@ a:focus,
 }
 
 .mu-back-to-home {
-	color: #4438b1b9;
+	color: #1341beb9;
 	display: inline-block;
 	margin-top: 60px;
 	font-size: 14px;
