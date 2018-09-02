@@ -16,13 +16,13 @@
         if ( empty($name) OR empty($cont_subject) OR empty($message) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
-            echo "Oops! There was a problem with your submission. Please complete the form and try again.";
+            echo "Oops! Un problème est survenu lors de l'envoie, veuillez réessayer plus.";
             exit;
         }
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "contact@markups.io";
+        $recipient = "kadeyoadje@gmail.com";
 
         // Set the email subject.
         $subject = "New contact from $name";
@@ -40,17 +40,17 @@
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
             http_response_code(200);
-            echo "Thank You! Your message has been sent.";
+            echo "Merci, Votre message a été envoyé avec succès.";
         } else {
             // Set a 500 (internal server error) response code.
             http_response_code(500);
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            echo "Oops! Veuillez reéssayer plus tard.";
         }
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
         http_response_code(403);
-        echo "There was a problem with your submission, please try again.";
+        echo "Veuillez reéssayer plus tard.";
     }
 
 ?>
