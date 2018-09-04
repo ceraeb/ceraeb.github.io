@@ -39,17 +39,17 @@
         // Send the email.
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
-            http_response_code(200);
+            // http_response_code(200);
             echo "Merci, Votre message a été envoyé avec succès.";
         } else {
             // Set a 500 (internal server error) response code.
-            http_response_code(500);
+            // http_response_code(500);
             echo "Oops! Veuillez reéssayer plus tard.";
         }
 
     } else {
         // Not a POST request, set a 403 (forbidden) response code.
-        http_response_code(403);
+        // http_response_code(403);
         echo "Veuillez reéssayer plus tard.";
     }
 
