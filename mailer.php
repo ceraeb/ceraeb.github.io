@@ -2,7 +2,7 @@
     // My modifications to mailer script from:
     // http://blog.teamtreehouse.com/create-ajax-contact-form
     // Added input sanitizing to prevent injection
-
+    use \Mailjet\Resources;
     // Only process POST reqeusts.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
@@ -40,6 +40,23 @@
         if (mail($recipient, $subject, $email_content, $email_headers)) {
             // Set a 200 (okay) response code.
             // http_response_code(200);
+            $apikey = '5605cc70b2429f8a3f12b4e6a8a202f9';
+            $apisecret = 'c53a32dae6a6bfb622b0db24bdcdffd1';
+            $mj = new \Mailjet\Client($apikey, $apisecret);
+            $body = [
+                'FromEmail' => "kadeyoadje@gmail.com",
+                'FromName' => "Mailjet Pilot",
+                'Subject' => "Your email flight plan!",
+                'Text-part' => "Dear passenger, welcome to Mailjet! May the delivery force be with you!",
+                'Html-part' => "<h3>Dear passenger, welcome to Mailjet!</h3><br/>May the delivery force be with you!",
+                'Recipients' => [
+                    [
+                        'Email' => "kadeyo@gmail.com"
+                    ]
+                ]
+            ];
+            $response = $mj->post(Resources::$Email, ['body' => $body]);
+            $response->success() && var_dump($response->getData());
             echo "Merci, Votre message a été envoyé avec succès.";
         } else {
             // Set a 500 (internal server error) response code.
